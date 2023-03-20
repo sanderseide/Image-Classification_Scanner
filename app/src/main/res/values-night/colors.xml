@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <color name = "bgcolor" tools:ignore="MissingDefaultResource">#474D71</color>
+    <color name = "textcolor" tools:ignore="MissingDefaultResource">#FDFCFF</color>
+    <color name = "subtextcolor" tools:ignore="MissingDefaultResource">#B7EEEEEE</color>
+    <color name = "btnstart" tools:ignore="MissingDefaultResource">#7B7EA4</color>
+    <color name = "btnend" tools:ignore="MissingDefaultResource">#575C84</color>
+    <color name = "cardstart" tools:ignore="MissingDefaultResource">#93B7D7</color>
+    <color name = "cardend" tools:ignore="MissingDefaultResource">#474D71</color>
+
+</resources>

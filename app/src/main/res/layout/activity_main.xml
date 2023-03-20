@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bgcolor"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:background="@drawable/topimg"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:layout_height="250dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="20dp"
+        android:background="@color/btnstart"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/classified"
+            android:layout_width="match_parent"
+            android:text="Prediction"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:fontFamily="@font/latobold"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:text=""
+            android:textColor="#83F1F1F1"
+            android:textSize="25dp"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/latobold"
+            android:layout_height="wrap_content"/>
+<!--        <TextView-->
+<!--            android:id="@+id/confidencesText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:text="hhhhh"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="35dp"-->
+<!--            android:fontFamily="@font/latobold"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+
+        <TextView
+            android:id="@+id/confidence"
+            android:layout_width="match_parent"
+
+            android:textColor="#83F1F1F1"
+            android:textSize="0dp"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/latobold"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/getstartedbtn"
+
+            android:layout_marginTop="30dp"
+            android:elevation="30dp"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:fontFamily="@font/latobold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="take picture"
+                android:textColor="#fff"
+                android:textSize="10dp"
+                tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:fontFamily="@font/latobold"
+                android:gravity="center"
+                android:text="Image to text"
+                android:textColor="#fff"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
