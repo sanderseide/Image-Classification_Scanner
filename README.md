@@ -13,22 +13,24 @@ La fonctionnalité de reconnaissance de texte permet aux utilisateurs d'extraire
 ![A cat playing with a toy mouse](https://github.com/sanderseide/Image-Classification_Scanner/blob/master/20230320_210959.gif)
 
 
-**Exigences** /n
-Android Studio 4.0 ou version ultérieure/n
+**Exigences:**
+Android Studio 4.0 ou version ultérieure
 Bibliothèque TensorFlow Lite
+
 **Installation**
 Clonez le dépôt sur votre machine locale.
 Ouvrez le projet dans Android Studio.
 Compilez et exécutez l'application sur un appareil Android.
+
 **Utilisation**
 Ouvrez l'application sur votre appareil Android.
 Pour classifier une image, sélectionnez l'option "Classification d'images" dans le menu principal.
 Sélectionnez une image à partir de la galerie de votre appareil ou prenez une nouvelle photo à l'aide de l'appareil photo de votre appareil.
 L'application classera l'image et affichera les quatre classes prédites qui sont Banana", "Orange", "Pen", "Sticky Notes" dans mon modele.
 
-Pour extraire du texte à partir d'une image, sélectionnez l'option "Image to text" et pour la classification sélectionnez "take picture" dans le menu principal.
-Sélectionnez une image à partir de la galerie de votre appareil ou prenez une nouvelle photo à l'aide de l'appareil photo de votre appareil.
-L'application extraira le texte de l'image et l'affichera à l'écran.
+## Pour extraire du texte à partir d'une image, sélectionnez l'option "Image to text" et pour la classification sélectionnez "take picture" dans le menu principal.
+## Sélectionnez une image à partir de la galerie de votre appareil ou prenez une nouvelle photo à l'aide de l'appareil photo de votre appareil.
+## L'application extraira le texte de l'image et l'affichera à l'écran.
 
 ## Licence
 Ce projet est sous licence MIT - voir le fichier LICENSE.md pour plus de détails.
