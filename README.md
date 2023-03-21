@@ -32,5 +32,4 @@ L'application classera l'image et affichera les quatre classes prédites qui son
 ## Sélectionnez une image à partir de la galerie de votre appareil ou prenez une nouvelle photo à l'aide de l'appareil photo de votre appareil.
 ## L'application extraira le texte de l'image et l'affichera à l'écran.
 
-## Licence
-Ce projet est sous licence MIT - voir le fichier LICENSE.md pour plus de détails.
+
