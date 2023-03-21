@@ -13,16 +13,14 @@ La fonctionnalité de reconnaissance de texte permet aux utilisateurs d'extraire
 ![A cat playing with a toy mouse](https://github.com/sanderseide/Image-Classification_Scanner/blob/master/20230320_210959.gif)
 
 
-Exigences
-Android Studio 4.0 ou version ultérieure
+**Exigences** /n
+Android Studio 4.0 ou version ultérieure/n
 Bibliothèque TensorFlow Lite
-Modèle Inception v3
-Moteur OCR Tesseract
-Installation
+**Installation**
 Clonez le dépôt sur votre machine locale.
 Ouvrez le projet dans Android Studio.
 Compilez et exécutez l'application sur un appareil Android.
-Utilisation
+**Utilisation**
 Ouvrez l'application sur votre appareil Android.
 Pour classifier une image, sélectionnez l'option "Classification d'images" dans le menu principal.
 Sélectionnez une image à partir de la galerie de votre appareil ou prenez une nouvelle photo à l'aide de l'appareil photo de votre appareil.
