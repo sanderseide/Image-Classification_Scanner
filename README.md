@@ -10,7 +10,7 @@ La fonctionnalité de classification d'images permet aux utilisateurs de classif
 Reconnaissance de texte
 La fonctionnalité de reconnaissance de texte permet aux utilisateurs d'extraire du texte à partir d'une image à l'aide de la reconnaissance optique de caractères (OCR). L'application utilise le moteur OCR Tesseract, qui est intégré à la bibliothèque TensorFlow Lite. L'utilisateur peut sélectionner une image à partir de la galerie de son appareil ou prendre une nouvelle photo à l'aide de l'appareil photo de son appareil. L'application extraira ensuite le texte de l'image et l'affichera à l'écran.
 
-![A cat playing with a toy mouse](https://media.giphy.com/media/xT9DPyTQ5ZGj5c6fVu/giphy.gif)
+![A cat playing with a toy mouse](https://github.com/sanderseide/Image-Classification_Scanner/blob/master/20230320_210959.gif)
 
 
 Exigences
