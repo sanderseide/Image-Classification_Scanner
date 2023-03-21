@@ -24,12 +24,12 @@ Compilez et exécutez l'application sur un appareil Android.
 
 **Utilisation**
 Ouvrez l'application sur votre appareil Android.
-Pour classifier une image, sélectionnez l'option "Classification d'images" dans le menu principal.
+## Pour classifier une image, sélectionnez l'option "take picture" dans le menu principal.
 Sélectionnez une image à partir de la galerie de votre appareil ou prenez une nouvelle photo à l'aide de l'appareil photo de votre appareil.
 L'application classera l'image et affichera les quatre classes prédites qui sont Banana", "Orange", "Pen", "Sticky Notes" dans mon modele.
 
 ## Pour extraire du texte à partir d'une image, sélectionnez l'option "Image to text" et pour la classification sélectionnez "take picture" dans le menu principal.
-## Sélectionnez une image à partir de la galerie de votre appareil ou prenez une nouvelle photo à l'aide de l'appareil photo de votre appareil.
-## L'application extraira le texte de l'image et l'affichera à l'écran.
+Sélectionnez une image à partir de la galerie de votre appareil ou prenez une nouvelle photo à l'aide de l'appareil photo de votre appareil.
+L'application extraira le texte de l'image et l'affichera à l'écran.
 
 
