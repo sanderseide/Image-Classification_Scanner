@@ -1,13 +1,13 @@
 
-Nom du projet : # Image-Classification_Scanner
+Nom du projet : ## Image-Classification_Scanner
 Il s'agit d'un projet de machine learning qui permet aux utilisateurs de classifier des images et d'extraire du texte à partir d'images sur un appareil Android en utilisant la bibliothèque TensorFlow Lite. Le projet a deux fonctionnalités principales : la classification d'images et la reconnaissance de texte.
 
-Classification d'images
-La fonctionnalité de classification d'images permet aux utilisateurs de classifier une image à l'aide d'un modèle pré-entraîné. L'application utilise le modèle Inception v3, qui est un réseau de neurones convolutifs entraîné sur l'ensemble de données ImageNet. L'utilisateur peut sélectionner une image à partir de la galerie de son appareil ou prendre une nouvelle photo à l'aide de l'appareil photo de son appareil. L'application classera ensuite l'image et affichera les cinq classes prédites les plus élevées ainsi que leurs probabilités correspondantes.
+**Classification d'images**
+La fonctionnalité de classification d'images permet aux utilisateurs de classifier une image à l'aide d'un modèle de machine learning. L'application utilise le modèle avec teachableMachine. L'utilisateur peut prendre une nouvelle photo à l'aide de l'appareil photo de son appareil. L'application classera ensuite l'image et affichera les quatre classes "Banana", "Orange", "Pen", "Sticky Notes".
 
 ![A cat playing with a toy mouse](https://github.com/sanderseide/Image-Classification_Scanner/blob/master/20230320_205447.gif)
 
-Reconnaissance de texte
+**Reconnaissance de texte**
 La fonctionnalité de reconnaissance de texte permet aux utilisateurs d'extraire du texte à partir d'une image à l'aide de la reconnaissance optique de caractères (OCR). L'application utilise le moteur OCR Tesseract, qui est intégré à la bibliothèque TensorFlow Lite. L'utilisateur peut sélectionner une image à partir de la galerie de son appareil ou prendre une nouvelle photo à l'aide de l'appareil photo de son appareil. L'application extraira ensuite le texte de l'image et l'affichera à l'écran.
 
 ![A cat playing with a toy mouse](https://github.com/sanderseide/Image-Classification_Scanner/blob/master/20230320_210959.gif)
@@ -32,5 +32,5 @@ Pour extraire du texte à partir d'une image, sélectionnez l'option "Image to t
 Sélectionnez une image à partir de la galerie de votre appareil ou prenez une nouvelle photo à l'aide de l'appareil photo de votre appareil.
 L'application extraira le texte de l'image et l'affichera à l'écran.
 
-Licence
+## Licence
 Ce projet est sous licence MIT - voir le fichier LICENSE.md pour plus de détails.
