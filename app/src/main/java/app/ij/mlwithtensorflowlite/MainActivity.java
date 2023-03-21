@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView result, confidence;
     ImageView imageView;
-    Button picture;
+    Button picture, button2;
     int imageSize = 224;
 
     @Override
@@ -41,6 +41,15 @@ public class MainActivity extends AppCompatActivity {
         confidence = findViewById(R.id.confidence);
         imageView = findViewById(R.id.imageView);
         picture = findViewById(R.id.button);
+        button2 = findViewById(R.id.button2);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Image_to_text.class);
+                startActivity(intent);
+            }
+        });
 
         picture.setOnClickListener(new View.OnClickListener() {
             @Override
