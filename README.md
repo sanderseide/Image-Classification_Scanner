@@ -5,7 +5,7 @@ Il s'agit d'un projet de machine learning qui permet aux utilisateurs de classif
 Classification d'images
 La fonctionnalité de classification d'images permet aux utilisateurs de classifier une image à l'aide d'un modèle pré-entraîné. L'application utilise le modèle Inception v3, qui est un réseau de neurones convolutifs entraîné sur l'ensemble de données ImageNet. L'utilisateur peut sélectionner une image à partir de la galerie de son appareil ou prendre une nouvelle photo à l'aide de l'appareil photo de son appareil. L'application classera ensuite l'image et affichera les cinq classes prédites les plus élevées ainsi que leurs probabilités correspondantes.
 
-![A cat playing with a toy mouse](https://media.giphy.com/media/xT9DPyTQ5ZGj5c6fVu/giphy.gif)
+![A cat playing with a toy mouse](https://github.com/sanderseide/Image-Classification_Scanner/blob/master/20230320_205447.gif)
 
 Reconnaissance de texte
 La fonctionnalité de reconnaissance de texte permet aux utilisateurs d'extraire du texte à partir d'une image à l'aide de la reconnaissance optique de caractères (OCR). L'application utilise le moteur OCR Tesseract, qui est intégré à la bibliothèque TensorFlow Lite. L'utilisateur peut sélectionner une image à partir de la galerie de son appareil ou prendre une nouvelle photo à l'aide de l'appareil photo de son appareil. L'application extraira ensuite le texte de l'image et l'affichera à l'écran.
